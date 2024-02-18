@@ -2,12 +2,12 @@
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.dvi
+*.fdb_latexmk
 *.lof
 *.log
 *.lot
 *.fls
 *.out
-*.pdf
 *.toc
 *.xdv
 
