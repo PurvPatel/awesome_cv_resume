@@ -395,16 +395,14 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          % \faPhone\acvHeaderIconSep\@mobile%
-          \@mobile%
+          \faPhone\acvHeaderIconSep\@mobile%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          % \href{mailto:\@email}{\faEnvelopeO\acvHeaderIconSep\@email}%
-          \href{mailto:\@email}{\@email}%          
+          \href{mailto:\@email}{\faEnvelopeO\acvHeaderIconSep\@email}%
         }%
       \ifthenelse{\isundefined{\@homepage}}%
         {}%
@@ -416,8 +414,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          % \href{https://github.com/\@github}{\faGithub\acvHeaderIconSep\@github}%
-          \href{https://github.com/\@github}{https://github.com/\@github}%
+          \href{https://github.com/\@github}{\faGithub\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -435,8 +432,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          % \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
-          \href{https://www.linkedin.com/in/\@linkedin}{https://www.linkedin.com/in/\@linkedin}%
+          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
         }%
       \ifthenelse{\isundefined{\@twitter}}%
         {}%
